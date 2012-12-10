@@ -20,7 +20,7 @@ no_index:
 provides:
   DBD::PassThrough:
     file: lib/DBD/PassThrough.pm
-    version: 0.01
+    version: 0.02
   DBD::PassThrough::db:
     file: lib/DBD/PassThrough.pm
     version: 0
@@ -33,4 +33,4 @@ requires:
   perl: 5.008005
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
